@@ -1,6 +1,7 @@
 ### 기본 입출력
 - InputStream, BufferedReader, Scanner 의 각각 차이 [링크](https://makemethink.tistory.com/170)
 - BufferedReader, Scanner, StringTokenizer, StringBuilder 를 사용해야하는 이유 [링크](https://rlakuku-program.tistory.com/33)
+- StringBuffer, StringBuilder, String 의 차이점 [링크](https://cjh5414.github.io/why-StringBuffer-and-StringBuilder-are-better-than-String/)
 
 ### String
 - 자바 원시타입(Primitive)은 "==(주소값 비교)" 해도 값 비교, 참조타입(Reference)은 == 하면 주소값 비교
