@@ -13,4 +13,6 @@
 - Stream 사용 꿀팁
   - List<String> list = Stream.of(arr).collect(Collectors.toList());
   - https://codechacha.com/ko/java-convert-string-to-chararray/
-  - 
+- 자바 Collection, Map 자세한 설명 [링크](https://withwani.tistory.com/150)
+- How to convert char[] to Character[] [링크](https://dirask.com/posts/Java-convert-char-array-to-Character-array-BDn80j)
+- 
