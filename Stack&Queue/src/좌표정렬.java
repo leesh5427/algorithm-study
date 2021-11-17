@@ -22,6 +22,11 @@ class Point implements Comparable<Point> {
             return this.x - o.x;
         }
     }
+
+    @Override
+    public String toString() {
+        return this.x + " " + this.y;
+    }
 }
 
 public class 좌표정렬 {
@@ -36,6 +41,11 @@ public class 좌표정렬 {
             int y = Integer.parseInt(st.nextToken());
             arr.add(new Point(x, y));
         }
+
         Collections.sort(arr);
+
+        for (Point p : arr) {
+            System.out.println(p);
+        }
     }
 }
